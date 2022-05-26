@@ -62,12 +62,38 @@ h1  {
 .eth {
     display: flex;
     gap: 70px;
+    margin-left: 15px;
 }
 
+.left {
+    display: flex;
+}
+
+
+.right {
+    display: flex;
+}
+
+/* this prevents the images fromt stretching out in a flexbox */
+.right img {
+    align-self: center;
+}
+.left img {
+    align-self: center;
+
+}
+
+.left p {
+    color: hsl(178, 100%, 50%);
+}
 
 
 p {
     font-size: 18px;
+}
+
+.eth img {
+    padding-top: 1px;
 }
 
 hr {

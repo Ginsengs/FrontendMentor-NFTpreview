@@ -10,32 +10,60 @@ body {
 
 .content {
     width: 330px;
-    height: 600px;
+    height: 560px;
     background: hsl(216, 50%, 16%);
     margin: 0 auto;
     margin-top:100px;
     border-radius: 10px;
     padding-top: 16px;
 }
-.equil {
+.equil{
+    position: absolute;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.equil:hover {
+    opacity: 30%;
+
+}
+
+.view {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 170px;
+    padding-bottom:130px;
+    background: hsl(178, 100%, 50%);
     border-radius: 10px;
 }
 
+.view img {
+    margin: 100px 100px;
+
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
 .avatar img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border: 1px white solid;
     border-radius: 50%;
 }
 
+
+
 .avatar {
     display: flex;
     justify-content: row;
-    margin: 15px 0px 0px 5px;
+    margin: 15px 0px 0px 10px;
 }
 
 
@@ -45,6 +73,10 @@ h1  {
     font-size: 20px;
     margin: 20px 20px;
     font-weight: 400;
+}
+
+h1:hover, .avatar span:hover {
+    color:hsl(178, 100%, 50%)
 }
 
 .content p {
@@ -61,8 +93,8 @@ h1  {
 
 .eth {
     display: flex;
-    gap: 70px;
-    margin-left: 15px;
+    gap: 80px;
+    margin-left: 20px;
 }
 
 .left {
@@ -96,8 +128,16 @@ p {
     padding-top: 1px;
 }
 
+.eth p {
+    margin-left: 5px;
+}
+
 hr {
     width:80%;
     margin-left: 40px;
     border-color: hsl(215, 32%, 27%);
 }
+
+.attribution {
+margin: 200px 0px 30px 0px;
+ }
